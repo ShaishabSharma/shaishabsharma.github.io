@@ -1,0 +1,255 @@
+html,body{
+	font-family:'Open Sans',Helvetica,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.3em;
+    text-align: center;
+    color: #FFF;
+}
+h1{
+	font-size: 4em;
+	color: #ff0000;
+	text-shadow: 0px 1px 0px #eb0000, 0px 2px 0px #c40000, 0px 3px 0px #9d0000, 0px 4px 0px #760000, 0px 5px 0px #4e0000, 0px 6px 0px #3b0000, 0px 7px 0px #270000, 0px 8px 7px #001135;
+}
+a{	
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFF;
+}
+#title {
+    text-align: center;
+}
+#Large{
+	margin-left: 1%;
+	margin-right: 0%;
+	width: 71%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 0.5%;
+	float: left;
+	margin-top: 1.5%;
+	padding-bottom: 5px;
+	clear: left;
+	text-align: justify;
+	box-shadow: 0px 10px 5px #474747;
+}
+#Medium{
+	margin-left: 1%;
+	margin-right: 0%;
+	width: 45%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 0.5%;
+	float: left;
+	margin-top: 1.5%;
+	padding-bottom: 5px;
+	clear: left;
+	text-align: justify;
+	box-shadow: 0px 10px 5px #474747;
+}
+#Small{
+	margin-left: 1%;
+	margin-right: 2%;
+	width: 21%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 0.5%;
+	float: right;
+	margin-top: 1.5%;
+	padding-bottom: 5px;
+	clear: right;
+	box-shadow: 0px 10px 5px #474747;
+}
+#MainNav {
+	margin-left: 1%;
+	margin-right: 2%;
+	width: 21%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 0.5%;
+	float: right;
+	margin-top: 1.5%;
+	padding-bottom: 5px;
+	clear: right;
+	box-shadow: 0px 10px 5px #474747;
+}
+#MainNav ul{
+	list-style-type: none;	
+}
+#MainNav h2{
+	display: none;
+}
+#contact {
+	margin-left: 1%;
+	margin-right: 0%;
+	width: 71%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 0.5%;
+	float: left;
+	margin-top: 1.5%;
+	padding-bottom: 5px;
+	clear: left;
+	text-align: justify;
+	box-shadow: 0px 10px 5px #474747;
+}
+#contact ul{
+	list-style-type: none;	
+}
+#Small p{
+	color: #ffffff;	
+}
+#Medium p{
+	color: #ffffff;
+	position: static;
+}
+#Large p{
+	color: #ffffff;
+	position: static;
+}
+#Small table, th, td {
+	color: #ffffff;
+    	border: 1px solid white;
+	 border-collapse: collapse;
+}
+#Medium table, th, td {
+	color: #ffffff;
+    	border: 1px solid white;
+    	border-collapse: collapse;
+}
+#Large table, th, td {
+	color: #ffffff;
+	border: 1px solid white;
+    	border-collapse: collapse;
+}
+#Subtitle{
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 1.75em;
+	line-height: 0em;
+	text-align: center;
+}
+article.blue{
+	background-color: #005eff;
+}
+article.red{
+	background-color: #ff0048;
+}
+article.green{
+	background-color: #50d900;
+}
+article.purple{
+	background-color: #b46eff;
+}
+article.orange{
+	background-color: #ffa200;
+}
+
+@media screen and (orientation: portrait){
+h1{
+	font-size: 4em;
+}
+#Large{
+	margin-right: 1%;
+	width: 95%;
+}
+#Medium{
+	margin-right: 1%;
+	width: 95%;
+}
+#Small{
+	margin-left: 0%;
+	width: 95%;
+	text-align: center;
+}
+#MainNav{
+	margin-left: 0%;
+	width: 95%;
+	text-align: center;
+}
+#MainNav a{
+	height: 33.33333333%;
+	float: both;
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	background-color: #FFA200;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 2em;
+	font-weight: 300;
+	clear: both;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#MainNav ul{
+	padding-left: 0px;
+}
+#MainNav h2{
+	display: none;
+}
+#MainNav a:hover , #MainNav a:active, #MainNav a:focus{
+	background-color: #ff9100;
+}
+#MainNav a.currentpage{
+	background-color: #ff5e00;
+}
+#contact{
+	width: 95%;
+	text-align: center;
+}
+#contact a{
+	height: 33.33333333%;
+	float: both;
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	background-color: #50d900;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 1.5em;
+	font-weight: 300;
+	clear: both;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0%;
+	margin-bottom: 0px;
+}
+#contact ul{
+	padding-left: 0px;
+}
+#contact h2{
+	display: none;
+}
+#contact a:hover , #contact a:active, #contact a:focus{
+	background-color: #99cc00;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+a:link {
+	color: #FFFFFF;
+}
+a:visited {
+	color: #FFFFFF;
+}
+a:hover, a:active, a:focus {
+	color: #FFBB33;
+}
+.textbox{
+	width: 97%
+}
+
+}
